@@ -1,7 +1,3 @@
-clear
-clc
-close all
-
 M = 8;   N = 32;    K = 1;
 
 % MC = 100;
