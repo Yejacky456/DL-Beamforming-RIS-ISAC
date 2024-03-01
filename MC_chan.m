@@ -33,5 +33,5 @@ for mc = 1:MC
 end
 
 % filename = ['Train_Channel_N_',num2str(N),'.mat'];
-filename = ['Test_Channel_N_',num2str(N),'.mat'];
+% filename = ['Test_Channel_N_',num2str(N),'.mat'];
 save(filename,'G_all','hrc_all','GH_all','hrcH_all','hrt_all','hrtH_all')
