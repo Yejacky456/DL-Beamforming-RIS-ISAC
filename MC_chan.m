@@ -4,9 +4,7 @@ close all
 
 M = 8;   N = 32;    K = 1;
 
-% MC = 500000;
 % MC = 100;
-% MC = 3;
 
 BS_loc = [0,0];     RIS_loc = [220,0];
 UE_center = [200,30];   radius = 10;
@@ -32,6 +30,5 @@ for mc = 1:MC
     hrt_all(:,mc) = hrt;    hrtH_all(:,mc) = conj(hrt);
 end
 
-% filename = ['Train_Channel_N_',num2str(N),'.mat'];
 % filename = ['Test_Channel_N_',num2str(N),'.mat'];
 save(filename,'G_all','hrc_all','GH_all','hrcH_all','hrt_all','hrtH_all')
