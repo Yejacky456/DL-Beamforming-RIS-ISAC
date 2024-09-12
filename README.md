@@ -3,6 +3,8 @@ This repository contains the source codes for ``Unsupervised Learning for Joint 
 
 The paper of the work can be found in the link "https://ieeexplore.ieee.org/document/10533223"
 
+The code is run by GPU. It is suggested implementing the CUDA-base pytorch framework to speed up the training. If no GPU available, one can modify the second paragraph to be device='cpu' to run the code in CPU. 
+
 If the readers have any questions about the code, feel free to contact "julianye953@163.com".
 
 If you found the code is useful for your research, please cite this paper:
